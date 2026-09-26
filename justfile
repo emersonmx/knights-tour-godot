@@ -22,4 +22,5 @@ format:
     uv tool run --from gdtoolkit gdformat .
 
 lint:
+    uv tool run --from gdtoolkit gdformat --check .
     uv tool run --from gdtoolkit gdlint .
