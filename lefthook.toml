@@ -1,0 +1,5 @@
+[pre-commit.commands.format]
+run = "just format"
+
+[pre-commit.commands.lint]
+run = "just lint"
