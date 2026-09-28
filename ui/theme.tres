@@ -1,0 +1,8 @@
+[gd_resource type="Theme" format=3 uid="uid://l8er8csn8amr"]
+
+[ext_resource type="FontFile" uid="uid://bscmhmcvqacko" path="res://assets/runtime/fonts/Handlee-Regular.ttf" id="1_rqugq"]
+
+[resource]
+resource_name = "DefaultTheme"
+default_font = ExtResource("1_rqugq")
+default_font_size = 0
