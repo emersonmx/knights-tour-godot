@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://brnivcht76nue"]
 
+[ext_resource type="Theme" uid="uid://l8er8csn8amr" path="res://ui/theme.tres" id="1_mrqkd"]
+
 [node name="MainScreen" type="Control" unique_id=338334870]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +9,32 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_mrqkd")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1315386243]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=97982462]
+layout_mode = 2
+size_flags_horizontal = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="Title" type="Label" parent="CenterContainer/VBoxContainer" unique_id=1373674302]
+layout_mode = 2
+theme_override_font_sizes/font_size = 150
+text = "Knight's
+Tour"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TapToStart" type="Label" parent="CenterContainer/VBoxContainer" unique_id=399456895]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Tap anywhere to start"
+horizontal_alignment = 1
+vertical_alignment = 1
